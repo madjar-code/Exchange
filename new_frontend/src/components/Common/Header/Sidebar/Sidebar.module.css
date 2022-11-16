@@ -1,0 +1,8 @@
+.sidebarHeader {
+  position: absolute;
+  left: 50%;
+  margin-left: -125px;
+  font-size: 22px;
+  width: 250px;
+  text-align: center;
+}

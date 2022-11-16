@@ -1,0 +1,15 @@
+.tag, .tagToAdd, .activeTag {
+  display: inline-block;
+  white-space: nowrap;
+  margin-left: 6px;
+  margin-top: 2px;
+  padding: 7.5px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #E5E5E5;
+}
+
+.activeTag, .tagToAdd:hover {
+  cursor: pointer;
+}

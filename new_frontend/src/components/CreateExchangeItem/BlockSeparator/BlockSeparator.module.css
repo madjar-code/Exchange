@@ -1,0 +1,14 @@
+.blockSeparator {
+  margin-top: 15px;
+  height: 6px;
+  background-color: var(--input-color);
+}
+
+.whiteRectangle {
+  position: relative;
+  left: 50%;
+  margin-left: -100px;
+  width: 200px;
+  height: 6px;
+  background-color: var(--black-white);
+}

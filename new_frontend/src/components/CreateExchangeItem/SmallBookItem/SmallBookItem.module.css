@@ -1,0 +1,19 @@
+.element {
+  position: relative;
+  left: 50%;
+  margin-left: -125px;
+  margin-top: 10px;
+  width: 250px;
+  height: 30px;
+  padding-top: 5px;
+  padding-left: 12.5px;
+  font-size: 15px;
+  background-color: var(--front-color);
+  border-radius: 10px;
+}
+
+.flag {
+  position: absolute;
+  top: 7.5px;
+  right: 8px;
+}

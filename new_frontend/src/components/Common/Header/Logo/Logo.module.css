@@ -1,0 +1,17 @@
+.logo {
+  position: absolute;
+  left: 50%;
+  width: 130px;
+  margin-left: -65px;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.blue {
+  color: var(--blue);
+}

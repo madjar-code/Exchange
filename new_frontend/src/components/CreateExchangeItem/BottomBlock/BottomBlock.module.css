@@ -1,0 +1,20 @@
+.descriptionTitle {
+  margin-top: 20px;
+  text-align: center;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.EIDescription {
+  padding: 5px;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 1px 5% 0 5%;
+  height: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background-color: var(--input-color);
+  color: var(--text-color);
+  border-radius: 5px;
+  resize: none;
+  font-size: 17.5px;
+}

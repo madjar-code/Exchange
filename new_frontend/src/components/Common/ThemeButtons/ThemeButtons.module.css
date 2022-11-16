@@ -1,0 +1,16 @@
+.themeButtons {
+  position: fixed;
+  right: 2px;
+  bottom: 5px;
+}
+
+.themeButtons button {
+  color: var(--text-color);
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.themeButtons button:hover {
+  cursor: pointer;
+  scale: 1.05;
+}

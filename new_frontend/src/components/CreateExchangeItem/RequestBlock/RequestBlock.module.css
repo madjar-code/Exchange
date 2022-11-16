@@ -1,0 +1,20 @@
+.header {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.requestTextarea {
+  background-color: var(--input-color);
+  color: var(--text-color);
+  padding: 5px;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 15px 5% 0 5%;
+  height: 160px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  resize: none;
+  font-size: 17.5px;
+}

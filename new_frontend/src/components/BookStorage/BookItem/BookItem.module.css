@@ -1,0 +1,45 @@
+.bookItem {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  margin-top: -1px;
+  height: 56px;
+  border-top: 1px solid var(--b-i-color);
+  border-bottom: 1px solid var(--b-i-color);
+}
+
+.bookTitle {
+  padding-top: 15px;
+  padding-left: 10px;
+  font-weight: 700;
+  color: var(--b-i-color);
+}
+
+.bookTitle:hover {
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.icon {
+  color: var(--b-i-color)
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.deleteBook {
+  color: var(--b-i-color);
+}
+
+.deleteBook:hover {
+  color: var(--text-color);
+}
+
+.icon, .changeBook, .deleteBook {
+  padding-top: 12.5px;
+}
+
+.changeBook:hover, .deleteBook:hover {
+  scale: 1.1;
+}

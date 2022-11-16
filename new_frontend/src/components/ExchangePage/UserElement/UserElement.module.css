@@ -1,0 +1,29 @@
+.userElement {
+  margin-top: 15px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #FFF;
+}
+
+.userAvatar {
+  margin-top: 5px;
+  margin-left: 20px;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  overflow: hidden;
+  object-fit:cover;
+  float: left;
+}
+
+.name {
+  position: absolute;
+  left: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 40px;
+}
+
+.name:hover, .userAvatar:hover {
+  cursor: pointer;
+}

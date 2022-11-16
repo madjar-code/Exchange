@@ -1,0 +1,18 @@
+.offerRequestItem {
+  margin-top: 35px;
+}
+
+.itemTitle {
+  opacity: 0.7;
+  margin-left: 10px;
+  float: left;
+}
+
+.tagBlock {
+  position: relative;
+  top: -5px;
+  text-align: center;
+  overflow-wrap: break-word;
+  margin-left: 17.5%;
+  width: 82.5%;
+}

@@ -1,0 +1,6 @@
+.workingField {
+  padding-top: 5px;
+  padding-bottom: 100px;
+  background-color: var(--e-i-b-b-color);
+  min-height: 100vh;
+}

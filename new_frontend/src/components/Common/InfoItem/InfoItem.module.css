@@ -1,0 +1,8 @@
+.infoItem, .infoItemTitle {
+  margin-top: 22.5px;
+  font-weight: 400;
+}
+
+.infoItemTitle {
+  color: var(--info-color);
+}

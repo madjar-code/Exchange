@@ -1,0 +1,47 @@
+.modal, .modalActive {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.modalActive {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal__content, .modal__contentActive {
+  background-color: 
+    var(--front-color);
+}
+
+.modal__contentActive {
+  transform: scale(1);
+}
+
+.addingBookItems {
+  margin-top: 7px;
+  margin-left: 40px ;
+  width: 230px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 17.5px;
+  outline: none;
+  border: none;
+  color: #FFF;
+  background-color: var(--add-book-button-color);
+  box-shadow: 0px 3px 7px 2px rgba(34, 60, 80, 0.2);
+}
+
+.addingBookItems:hover {
+  cursor: pointer;
+  box-shadow: 0px 3px 7px -2px rgba(34, 60, 80, 0.2);
+}

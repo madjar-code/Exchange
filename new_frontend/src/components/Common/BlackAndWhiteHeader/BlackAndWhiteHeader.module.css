@@ -1,0 +1,14 @@
+.pageHeader {
+  background-color: var(--front-color);
+  border-bottom: 2px solid var(--sep-color);
+}
+
+.pageTitle {
+  position: relative;
+  text-align: center;
+  color: var(--bwh-title-color);
+  margin-bottom: 8px;
+  padding-top: 7.5px;
+  font-size: 20px;
+  font-weight: 500;
+}

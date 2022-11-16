@@ -1,0 +1,32 @@
+.userLine {
+  margin-top: 20px;
+  background-color: var(--front-color);
+  height: 40px;
+}
+
+.userAvatar {
+  margin-top: 5px;
+  margin-left: 30px;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  overflow: hidden;
+  object-fit:cover;
+  float: left;
+}
+
+.userAvatar:hover {
+  cursor: pointer;
+}
+
+.name {
+  position: absolute;
+  left: 55px;
+  padding-left: 5px;
+  padding-top: 10px;
+  /* background-color: red; */
+}
+
+.name:hover {
+  cursor: pointer;
+}

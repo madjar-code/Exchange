@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+html[data-theme='dark'] {
+  --working-field-color: var(--dark-gray);
+  --add-book-button-color: #4535a8;
+  --abi-color: var(--front-black);
+  --input-color: var(--dark-gray);
+  --bwh-title-color: var(--light-gray);
+  --black-white: var(--bg-black);
+  --p-d-color: var(--dark-gray);
+  --b-i-color: var(--medium-gray);
+  --blue: #2563EB;
+  --info-color: rgba(255, 255, 255, 0.7);
+  --front-color: var(--front-black);
+  --bg-color: var(--bg-black);
+  --header-footer-color: var(--bg-black);
+  --text-color: var(--white);
+  --e-i-b-b-color: #1f1f1f;
+  --e-i-b-f-t-b-color: rgba(0, 0, 0, 0);
+}
+
+html[data-theme='light'] {
+  --working-field-color: #EBECEF;
+  --add-book-button-color: #5B46DB;
+  --abi-color: #E5E5E5;
+  --input-color: var(--input-gray);
+  --bwh-title-color: var(--sep-color);
+  --black-white: var(--white);
+  --p-d-color: var(--light-gray);
+  --b-i-color: var(--dark-gray);
+  --blue: blue;
+  --info-color: rgba(0, 0, 0, 0.6);
+  --front-color: var(--white);
+  --bg-color: var(--light-gray);
+  --header-footer-color: var(--white);
+  --text-color: var(--black);
+  --e-i-b-b-color: var(--smoke);
+  --e-i-b-f-t-b-color: #EBECEF;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+
+:root {
+  --dull-red: rgba(255, 0, 0, 0.6);
+  --less-dull-red: rgba(255, 0, 0, 0.9);
+  --white: #FFF;
+  --front-black: #313131;
+  --bg-black: #212121;
+  --black: #000;
+  --smoke: #FBFBFB;
+  --input-gray: #F5F5F5;
+  --light-gray: #EBECEE;
+  --medium-gray: rgb(181, 181, 181);
+  --dark-gray: #4C4C4C;
+  --sep-color: rgba(0, 0, 0, 0.7);
+  --field-color: rgba(235, 235, 235, 0.733);
+}
+
+html {
+  background-color: var(--bg-color);
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+textarea, input {
+  font-family: 'Ubuntu';
+  color: var(--text-color);
+}

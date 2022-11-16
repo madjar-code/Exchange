@@ -1,0 +1,84 @@
+.label {
+  text-align: center;
+  font-size: 22px;
+}
+
+.signupBlock, .loginBlock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -180px;
+  padding-top: 20px;
+  width: 360px;
+  border-radius: 20px;
+  background-color: var(--front-color);
+}
+
+.loginBlock {
+  height: 260px;
+  margin-top: -130px;
+}
+
+.signupBlock {
+  height: 320px;
+  margin-top: -160px;
+}
+
+.authInput {
+  margin-top: 18px;
+  margin-left: 14px;
+  padding-left: 5px;
+  width: 330px;
+  height: 40px;
+  font-size: 18px;
+  border: none;
+  background-color: var(--input-color);
+  border-radius: 7.5px;
+}
+
+.loginButton,
+.signupButton {
+  position: relative;
+  left: 50%;
+  margin-top: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color: var(--front-color);
+  font-size: 16px;
+}
+
+.loginButton {
+  width: 120px;
+  margin-left: -60px;
+  color: var(--blue);
+  border: 2px solid var(--blue);
+}
+
+.signupButton {
+  width: 170px;
+  margin-left: -85px;
+  color: rgb(16, 202, 16);
+  border: 2px solid rgb(16, 202, 16);
+}
+
+.signupButton:hover {
+  transition: 0.5s;
+  color: var(--white);
+  background-color: rgb(16, 202, 16);;
+}
+
+.loginButton:hover {
+  transition: 0.5s;
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+.signupLabel, .loginLabel {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.link {
+  color: var(--blue);
+  text-decoration: none;
+}

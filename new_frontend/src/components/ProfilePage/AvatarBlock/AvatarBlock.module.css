@@ -1,0 +1,20 @@
+.avatarBlock {
+  margin-top: 25px;
+}
+
+.avatar {
+  position: relative;
+  left: 50%;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 60px;
+}
+
+.name {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 22.5px;
+}

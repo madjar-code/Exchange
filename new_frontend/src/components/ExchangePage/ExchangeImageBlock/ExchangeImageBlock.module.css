@@ -1,0 +1,50 @@
+.imageBlock {
+  display: grid;
+  grid-template-columns: 1fr; /*35px 1fr;*/
+  position: relative;
+  background-color: #FFF;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.leftPicture, .rightPicture {
+  top: 20px;
+  width: 140px;
+  height: 225px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.leftPicture {
+  position: relative;
+  left: 15px;
+}
+
+.rightPicture {
+  position: absolute;
+  right: 15px;
+}
+
+.icon {
+  position: relative;
+  top: 50%;
+  margin-top: -17.5px;
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #E5E5E5; 
+}
+
+.leftBookNames {
+  padding: 5px;
+  text-align: center;
+}
+
+.rightBookNames {
+  padding: 5px;
+  text-align: center;
+}

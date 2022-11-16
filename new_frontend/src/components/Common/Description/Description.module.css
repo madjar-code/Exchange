@@ -1,0 +1,15 @@
+.lastItem {
+  opacity: 0.7;
+  margin-top: 22.5px;
+}
+
+.shortDescription {
+  margin-top: 5px;
+  padding: 8px 5px;
+  background-color:
+    var(--p-d-color);
+  border-radius: 5px;
+  resize: none;
+  opacity: 0.7;
+  font-size: 15px;
+}
